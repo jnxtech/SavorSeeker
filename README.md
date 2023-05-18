@@ -10,24 +10,38 @@ Features
 - Share recipes on social media platforms (Facebook, Twitter, Reddit)
 - Personalized recipe recommendations based on user preferences and search history
 
-Getting Started
-These instructions will help you set up the project on your local machine for development and testing purposes.
 
-Prerequisites
-- PHP 7.4 or higher
-- MySQL 5.7 or higher
-- Web server (e.g., Apache or Nginx)
-- Composer (for dependency management)
 
-Usage
-- Log in to the Recipe Search Website using your registered user account.
 
-- Use the search bar to find recipes based on keywords. The search results will display recipe cards with images, titles, and links to view more details.
 
-- Click on a recipe to view detailed information, including ingredients and preparation steps.
+<br>
+<br>
+<br>
 
-- Save recipes to your favorites by clicking the "Save Recipe" button on the recipe card or the recipe detail page.
+![image](https://github.com/jnxtech/SavorSeeker/assets/119785977/f31d9e28-a675-4d3d-bf15-e374a965e84a)
+<br>
+<br>
+<br>
+![image](https://github.com/jnxtech/SavorSeeker/assets/119785977/c55636d0-766f-49dc-817b-7daa274f6e27)
+<br>
+<br>
+<br>
+![image](https://github.com/jnxtech/SavorSeeker/assets/119785977/db46fa1a-f688-4a66-a2af-3fa0e1ec8bff)
+<br>
+<br>
+<br>
+![image](https://github.com/jnxtech/SavorSeeker/assets/119785977/d8f54dbe-3e49-43d5-823f-516e79c47253)
+<br>
+<br>
+<br>
+![image](https://github.com/jnxtech/SavorSeeker/assets/119785977/1de646be-b985-4ae3-8355-009d1c348d4a)
+<br>
+<br>
+<br>
+![image](https://github.com/jnxtech/SavorSeeker/assets/119785977/cba265f3-627c-4aad-b96e-e892df64a6f5)
 
-- Share recipes on social media using the provided buttons on the recipe card or the recipe detail page.
 
-- Visit the "Recommended Recipes" page to view personalized recipe suggestions based on your preferences and search history.
+
+
+
+
