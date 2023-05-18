@@ -30,6 +30,10 @@ Features
 <br>
 <br>
 <br>
+![image](https://github.com/jnxtech/SavorSeeker/assets/119785977/e86da43f-d921-40a0-9c49-f033bc36fbad)
+<br>
+<br>
+<br>
 ![image](https://github.com/jnxtech/SavorSeeker/assets/119785977/d8f54dbe-3e49-43d5-823f-516e79c47253)
 <br>
 <br>
