@@ -20,7 +20,7 @@ if(!isset($user_id)){
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
     <link rel="stylesheet" type="text/css" href="aboutus.css">
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
     <script src="snow.js"></script>
   </head>
   <body>
@@ -39,7 +39,7 @@ if(!isset($user_id)){
       
     </section>
     <header>
-        <nav class="navbar is-light">
+    <nav id="navbar" class="navbar is-light">
           <div class="navbar-brand">
             
             <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
@@ -79,11 +79,12 @@ if(!isset($user_id)){
   </div>
 </div>
 </div>
+<div class="navbar-player"></div>
         </nav>
       </header>
       
       
-    <section class="section">
+      <section class="section" id="about-section">
       <div class="container">
         <div class="columns">
           <div class="column is-half is-offset-one-quarter">
@@ -101,6 +102,62 @@ if(!isset($user_id)){
                   </section>
                   
 
+                  <script>
+  
+  const navbar = document.getElementById("navbar");
+  const navbarPlayer = document.querySelector(".navbar-player");
+
+  // Define the animation
+  const tl = gsap.timeline({
+    defaults: {
+      ease: "power1.out"
+    }
+  });
+
+  tl.fromTo(navbar, {
+      y: "-100%"
+    }, {
+      y: "0%",
+      opacity: 1,
+      duration: 1.5
+    }) // Slide in animation
+    .fromTo(
+      navbarPlayer, {
+        scale: 0
+      }, {
+        scale: 1,
+        duration: 1,
+        ease: "elastic.out(1, 0.5)",
+        delay: 0.5
+      }
+    ) // Player scale animation
+    .fromTo(
+      ".navbar-player i", {
+        opacity: 0,
+        scale: 0
+      }, {
+        opacity: 1,
+        scale: 1,
+        duration: 0.5,
+        ease: "power2.out"
+      }
+    ); // Icon opacity and scale animation
+
+  // Play the animation
+  tl.play();
+</script>
+
+
+<script>
+  // Animation using GSAP
+  gsap.from("#about-section", { opacity: 0, duration: 1, delay: 0.5, y: -50, ease: "power4.out" });
+
+ 
+  setTimeout(() => {
+    const aboutSection = document.getElementById("about-section");
+    aboutSection.style.opacity = 1;
+  }, 2000);
+</script>
 
                   <script src="navbarburgers.js"></script>
                   <script src="login.js"></script>
