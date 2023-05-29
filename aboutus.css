@@ -3,7 +3,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #f5f5f5;
+  background-color: #333333;
 }
 
 .title {
@@ -14,10 +14,52 @@ body {
   background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
 }
 
-.navbar-item {
-  font-weight: bold;
-}
+
 
 .button.is-info {
   font-weight: bold;
+}
+.navbar {
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+/* Navbar player styles */
+.navbar-player {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60px;
+  height: 60px;
+  background-image: url('32404steamingbowl_98938.png'); /* Replace 'path/to/food-image.png' with the path to your food-shaped image */
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+  z-index: 999;
+  overflow: hidden;
+}
+
+/* Navbar player icon */
+.navbar-player i {
+  display: none; /* Hide the default icon */
+}
+
+/* Hide navbar initially */
+.navbar {
+  opacity: 0;
+}
+
+/* Navbar link styles */
+.navbar-start .navbar-item,
+.navbar-end .navbar-item {
+  color: #ffffff;
+}
+
+/* Navbar link hover styles */
+.navbar-start .navbar-item:hover,
+.navbar-end .navbar-item:hover {
+  color: #ffcc00;
 }
