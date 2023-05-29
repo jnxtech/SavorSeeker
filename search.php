@@ -20,6 +20,7 @@ if (!isset($user_id)) {
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
     <link rel="stylesheet" type="text/css" href="search.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
 
 </head>
 
@@ -38,7 +39,7 @@ if (!isset($user_id)) {
 
     </section>
     <header>
-        <nav class="navbar is-light ">
+    <nav id="navbar" class="navbar is-light">
             <div class="navbar-brand">
 
                 <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
@@ -78,12 +79,13 @@ if (!isset($user_id)) {
   </div>
 </div>
 </div>
+<div class="navbar-player"></div>
         </nav>
     </header>
 
 
 
-    <section class="section">
+    <section class="section" id="search-section">
         <div class="container">
             <h1 class="title has-text-centered">Food Recipe Search</h1>
             <p class="subtitle has-text-centered">Find the perfect recipe in minutes!</p>
@@ -300,6 +302,16 @@ if (!isset($user_id)) {
 
     </section>
 
+    <script>
+  
+  gsap.from("#search-section", { opacity: 0, duration: 1, delay: 0.5, y: 50 });
+
+  
+  setTimeout(() => {
+    const searchSection = document.getElementById("search-section");
+    searchSection.style.opacity = 1;
+  }, 2000);
+</script>
 
 
     <script>
@@ -307,7 +319,7 @@ if (!isset($user_id)) {
         var i;
 
         for (i = 0; i < coll.length; i++) {
-            // Close all collapsible elements by default
+            
             coll[i].nextElementSibling.style.display = "none";
 
             coll[i].addEventListener("click", function() {
@@ -321,7 +333,31 @@ if (!isset($user_id)) {
             });
         }
     </script>
+<script>
 
+const navbar = document.getElementById("navbar");
+const navbarPlayer = document.querySelector(".navbar-player");
+
+
+const tl = gsap.timeline({ defaults: { ease: "power1.out" } });
+
+tl.fromTo(navbar, { y: "-100%" }, { y: "0%", opacity: 1, duration: 1.5 })
+  .fromTo(
+    navbarPlayer,
+    { scale: 0 },
+    { scale: 1, duration: 1, ease: "elastic.out(1, 0.5)", delay: 0.5 }
+  ) 
+  .fromTo(
+    ".navbar-player i",
+    { opacity: 0, scale: 0 },
+    { opacity: 1, scale: 1, duration: 0.5, ease: "power2.out" }
+  ); 
+
+
+tl.play();
+
+
+  </script>
     <script src="search.js"></script>
     <script src="navbarburgers.js"></script>
     <script src="snow.js"></script>
