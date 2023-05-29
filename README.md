@@ -8,7 +8,7 @@ Features
 - View detailed recipe information, including ingredients, steps, and images
 - Save favorite recipes for later
 - Share recipes on social media platforms (Facebook, Twitter, Reddit)
-- Personalized recipe recommendations based on user preferences and search history
+- Personalized recommendations based on user favorite food types, frequently saved recipes, frequently searched words
 
 
 
