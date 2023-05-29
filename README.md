@@ -18,7 +18,7 @@ Features
 <br>
 <br>
 
-![image](https://github.com/jnxtech/SavorSeeker/assets/119785977/f31d9e28-a675-4d3d-bf15-e374a965e84a)
+![image](https://github.com/jnxtech/SavorSeeker/assets/119785977/ff7553db-cfcc-438a-bc31-53de112edcf9)
 <br>
 <br>
 <br>
