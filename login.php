@@ -57,7 +57,7 @@ if(isset($_POST['submit'])){
                     </div>
                     <div class="field">
                        
-                        <div class="control has-icons-left">
+                        <div class="control has-icons-left ">
                             <input type="password" name="password" placeholder="Enter your password" required class="input">
                             <span class="icon is-small is-left">
                                 <i class="fas fa-lock"></i>
@@ -79,8 +79,10 @@ if(isset($_POST['submit'])){
         </div>
     </section>
 
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
     <script src="navbarburgers.js"></script>
     <script src="login.js"></script>
+    
+
 </body>
 </html>
