@@ -11,38 +11,45 @@ Features
 - Personalized recommendations based on user favorite food types, frequently saved recipes, frequently searched words
 
 
-
-
-
 <br>
 <br>
 <br>
 
-![image](https://github.com/jnxtech/SavorSeeker/assets/119785977/ff7553db-cfcc-438a-bc31-53de112edcf9)
+![image](https://github.com/jnxtech/SavorSeeker/assets/119785977/a8f06e91-1a38-47be-a7d8-2cb3961a9aa6)
+
 <br>
 <br>
 <br>
-![image](https://github.com/jnxtech/SavorSeeker/assets/119785977/c55636d0-766f-49dc-817b-7daa274f6e27)
+
+![image](https://github.com/jnxtech/SavorSeeker/assets/119785977/793f1928-f755-43e6-9c4c-d271306bb571)
 <br>
 <br>
 <br>
-![image](https://github.com/jnxtech/SavorSeeker/assets/119785977/db46fa1a-f688-4a66-a2af-3fa0e1ec8bff)
+![image](https://github.com/jnxtech/SavorSeeker/assets/119785977/0c454297-743b-44c0-b147-b635d3bdf2a6)
 <br>
 <br>
 <br>
-![image](https://github.com/jnxtech/SavorSeeker/assets/119785977/e86da43f-d921-40a0-9c49-f033bc36fbad)
+![image](https://github.com/jnxtech/SavorSeeker/assets/119785977/ccf25328-3d75-42b6-b83e-b72416e897d5)
 <br>
 <br>
 <br>
-![image](https://github.com/jnxtech/SavorSeeker/assets/119785977/d8f54dbe-3e49-43d5-823f-516e79c47253)
+![image](https://github.com/jnxtech/SavorSeeker/assets/119785977/cba1614c-0b9c-4223-abab-c4eecfb07cf2)
 <br>
 <br>
 <br>
-![image](https://github.com/jnxtech/SavorSeeker/assets/119785977/1de646be-b985-4ae3-8355-009d1c348d4a)
+![image](https://github.com/jnxtech/SavorSeeker/assets/119785977/3282c145-8e2b-4e2f-b9f2-cdfce6fa5da4)
 <br>
 <br>
 <br>
-![image](https://github.com/jnxtech/SavorSeeker/assets/119785977/cba265f3-627c-4aad-b96e-e892df64a6f5)
+![image](https://github.com/jnxtech/SavorSeeker/assets/119785977/1cfce6cf-3f2f-4be3-ae74-2668ab3a05bc)
+<br>
+<br>
+<br>
+![image](https://github.com/jnxtech/SavorSeeker/assets/119785977/d42af8b6-2679-4351-9760-94ac07c5bf3f)
+<br>
+<br>
+<br>
+![image](https://github.com/jnxtech/SavorSeeker/assets/119785977/29ffb618-f3f5-498c-9472-6258d27060dd)
 
 
 
