@@ -47,14 +47,16 @@ if(isset($_POST['submit'])){
 
    <!-- Font Awesome CSS link -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+   <link rel="stylesheet" type="text/css" href="register.css">
 
 </head>
-<body>
+<body id="registration-page">
     <section class="hero is-primary">
         <div class="hero-body has-text-centered">
             <h1 class="title">Register</h1>
         </div>
     </section>
+    <br>
     <div class="form-container container">
         <form action="" method="post">
             <div class="field">
@@ -145,6 +147,12 @@ if(isset($_POST['submit'])){
    </form>
 
 </div>
+<script>
+    
+    window.addEventListener('DOMContentLoaded', function() {
+      document.getElementById('registration-page').classList.add('animate');
+    });
+  </script>
 <script src="navbarburgers.js"></script>
 <script src="snow.js"></script>
 </body>
