@@ -138,11 +138,11 @@ if (!isset($user_id)) {
 
 
 <script>
-  // Select the navbar and player elements
+  
   const navbar = document.getElementById("navbar");
   const navbarPlayer = document.querySelector(".navbar-player");
 
-  // Define the animation
+  
   const tl = gsap.timeline({
     defaults: {
       ease: "power1.out"
@@ -155,7 +155,7 @@ if (!isset($user_id)) {
       y: "0%",
       opacity: 1,
       duration: 1.5
-    }) // Slide in animation
+    }) 
     .fromTo(
       navbarPlayer, {
         scale: 0
@@ -165,7 +165,7 @@ if (!isset($user_id)) {
         ease: "elastic.out(1, 0.5)",
         delay: 0.5
       }
-    ) // Player scale animation
+    ) 
     .fromTo(
       ".navbar-player i", {
         opacity: 0,
@@ -176,13 +176,14 @@ if (!isset($user_id)) {
         duration: 0.5,
         ease: "power2.out"
       }
-    ); // Icon opacity and scale animation
+    ); 
 
-  // Play the animation
+ 
   tl.play();
 </script>
+
 <script>
-  // Animation using GSAP
+  
   gsap.from(".image-banner img", {
     opacity: 0,
     duration: 1,
@@ -208,8 +209,10 @@ if (!isset($user_id)) {
     y: -50
   });
 </script>
+
+
 <script>
-  // Animation using GSAP
+  
   gsap.from("#recipes-section", {
     opacity: 0,
     duration: 1,
@@ -223,9 +226,9 @@ if (!isset($user_id)) {
     stagger: 0.2
   });
 
-  // Replace this code with your logic to populate the recipes in the container
+  
 
-  // Example code to create a recipe card
+  
   const createRecipeCard = (title) => {
     const card = document.createElement("div");
     card.classList.add("column", "is-4");
@@ -238,7 +241,7 @@ if (!isset($user_id)) {
     return card;
   };
 
-  // Example code to populate recipe cards
+  
   const recipesContainer = document.getElementById("recipes-container");
 
 
